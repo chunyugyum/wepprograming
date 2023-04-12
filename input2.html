@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form name="from1" method="post" action="">
+    색을 선택해주세요 :  <input type="color"> <br>
+    숫자를 입력하세요 :  <input type="number" max="100" min="0" step="10" value="50"><br>
+    슬라이드를 움직여 만족도를 입력하세요(1~10)<br><input type="range" min="1" max="10" value="5"><br>
+    성별을 선택하세요<br><select name="gender">
+        <option value="female">여성</option>
+        <option value="male" selected>남성<br></option> 
+        <form action="process.jsp">
+        <input list="browsers" name="browsers">
+        <p>선호하는 브라우저를 선택해주세요</p><br>
+        <datalist id="browsers">
+            <option value="크롬">
+            <option value="엣지">
+            <option value="오페라">
+            <option value="사파리">
+        </datalist>
+        <form action="" name="test">
+            <fieldset>
+                <legend>1+1=?</legend>
+                <input type="radio" name="select" id="1" value="1">1번 <label for="1">2</label>
+                <input type="radio" name="select" id="2" value="2">2번 <label for="2">창문</label>
+                <input type="radio" name="select" id="3" value="3">3번 <label for="3">11</label>
+                <input type="radio" name="select" id="4" value="4">4번 <label for="4">0</label>
+                <input type="radio" name="select" id="5" value="5">5번 <label for="5">정답없음</label>
+            </fieldset>
+        </form>
+        서술형 답안제출:
+        <input type="file" accept="image/jpg,image/gif"
+    </form>
+    </select>
+
+
+
+
+    </form>
+</body>
+</html>
