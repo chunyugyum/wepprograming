@@ -1,0 +1,12 @@
+.container{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.container .item{
+    width: 100px;
+    height: 100px;
+    border: 3px dashed red;
+    background-color: olivedrab;
+}
