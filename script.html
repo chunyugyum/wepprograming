@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="printnum();">안녕하세요</button>
+    <div id="test">반가워요</div>
+    <script>
+        let x= prompt("닉네임");
+        let z=x;
+        
+        function printnum(){
+            document.getElementById("test").innerHTML=z;
+        }
+    </script>
+</body>
+</html>
